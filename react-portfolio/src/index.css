@@ -1,13 +1,125 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Ready Player2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F4F4F4;
 }
 
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.app {
+  
+}
+.navbar{
+  margin-top: 30px;
+display: inline-flex;
+width: 100%;
+
+flex-flow: row wrap;
+align-items: center;
+text-align: center;
+justify-content: space-around;
+
+}
+
+#logo {
+
+background: linear-gradient(270deg, rgba(0, 0, 0, 0) 19.15%, #000000 19.16%);
+
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+
+width: 270px;
+min-width: 270px;
+max-width: 270px;
+
+
+display:flex;
+
+}
+
+#logoText {
+display: flex;
+text-align: center;
+
+margin-left: 10px;
+
+font-family: 'Press Start 2P';
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 0px;
+
+
+color: #FA00FF;
+}
+
+#navLinks {
+/* add media screen to add top margin when smaller window sizemargin-top: 10px; */
+/* width: 270px;
+min-width: 270px;
+max-width: 270px; */
+
+}
+#portraitIcon {
+
+width:80px ;
+
+}
+#myStoryIcon {
+width:80px ;
+
+}
+#githubIcon {
+  width:80px ;
+
+}
+
+#emailIcon {
+  width:80px ;
+
+}
+
+#pHolderIcon {
+  margin-left:18px;
+  margin-top: 2px;
+}
+
+.mainWindow {
+display: flex;
+align-content: center;
+justify-content: center;
+
+
+}
+
+.main {
+
+width: 90%;
+height: 90%;
+min-width: 200px;
+min-height: 400px;
+margin-left:10px;
+margin-top: 40px;
+border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 10px;
+
 }
