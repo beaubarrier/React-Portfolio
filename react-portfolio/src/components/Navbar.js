@@ -27,6 +27,7 @@ function Navbar({ currentPage, handlePageChange }) {
     const handleTextBack = (e) => {
         setText('beauBarrier')
     }
+
     return (
         <nav className="navbar">
 
