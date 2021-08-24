@@ -4,7 +4,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 import images from "./images";
 import "react-image-gallery/styles/css/image-gallery.css";
-import "./styles.css";
+// import "./styles.css";
 
 export default function Gallery() {
     function renderLeftNav(onClick, disabled) {

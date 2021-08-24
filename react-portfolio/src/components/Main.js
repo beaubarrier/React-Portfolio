@@ -11,7 +11,7 @@ export default function Main() {
 
     const renderPage = () => {
         if (currentPage === 'portfolio') {
-            return <Gallery />;
+            return <Portfolio />;
         }
         if (currentPage === 'myStory') {
             return <MyStory />;
