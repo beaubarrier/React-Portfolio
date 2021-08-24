@@ -32,30 +32,69 @@ function Navbar({ currentPage, handlePageChange }) {
     return (
         <nav className="navbar">
 
-            {/* <Logo /> */ }
+
             <div id="logo">
 
                 <a href="#default"
                     onClick={ () => { handlePageChange('default') } }
                     onMouseOver={ () => { handleChangeTextColor() } }>
 
-                    <p id="logoText" style={ { color: textColor } }>{ text }</p></a>
+                    <p id="logoText"
+                        style={ { color: textColor } }>
+                        { text }
+                    </p>
 
-                <i id="pHolderIcon" className="fas fa-2x fa-user-astronaut"></i>
+                </a>
+
+                <i id="pHolderIcon"
+                    className="fas fa-2x fa-user-astronaut">
+                </i>
 
             </div>
 
             <div id="navLinks">
 
-                <a href="#portfolio" onClick={ () => { handlePageChange('portfolio') } } ><i id="portraitIcon" className="fas fa-2x  fa-portrait" onMouseOver={ () => { handleChangeTextColor(); handleTextChangePortfolio(); } }
-                    onMouseOut={ () => { handleTextBack() } }
-                ></i></a>
+                <a href="#portfolio"
+                    onClick={ () => { handlePageChange('portfolio') } } >
 
-                <a href="#myStory" onClick={ () => { handlePageChange('myStory') } }  > <i id="myStoryIcon" className="fas fa-2x fa-book" onMouseOver={ () => { handleChangeTextColor(); handleTextChangeMyStory() } } onMouseOut={ () => { handleTextBack() } }></i></a>
+                    <i id="portraitIcon"
+                        className="fas fa-2x  fa-portrait"
+                        onMouseOver={ () => { handleChangeTextColor(); handleTextChangePortfolio(); } }
+                        onMouseOut={ () => { handleTextBack() } }>
+                    </i>
 
-                <a href="https://www.github.com/beaubarrier"><i id="githubIcon" className="fab fa-2x  fa-github" onMouseOver={ () => { handleChangeTextColor(); handleTextChangeGithub() } } onMouseOut={ () => { handleTextBack() } }></i></a>
+                </a>
 
-                <a href="mailto:beaubarrier@gmail.com"><i id="emailIcon" className="fas fa-2x fa-at" onMouseOver={ () => { handleChangeTextColor(); handleTextChangeEmail() } } onMouseOut={ () => { handleTextBack() } }></i></a>
+                <a href="#myStory"
+                    onClick={ () => { handlePageChange('myStory') } }  >
+
+                    <i id="myStoryIcon"
+                        className="fas fa-2x fa-book"
+                        onMouseOver={ () => { handleChangeTextColor(); handleTextChangeMyStory(); } }
+                        onMouseOut={ () => { handleTextBack() } }>
+                    </i>
+
+                </a>
+
+                <a href="https://www.github.com/beaubarrier">
+
+                    <i id="githubIcon"
+                        className="fab fa-2x  fa-github"
+                        onMouseOver={ () => { handleChangeTextColor(); handleTextChangeGithub(); } }
+                        onMouseOut={ () => { handleTextBack() } }>
+                    </i>
+
+                </a>
+
+                <a href="mailto:beaubarrier@gmail.com">
+
+                    <i id="emailIcon"
+                        className="fas fa-2x fa-at"
+                        onMouseOver={ () => { handleChangeTextColor(); handleTextChangeEmail(); } }
+                        onMouseOut={ () => { handleTextBack() } }>
+                    </i>
+
+                </a>
 
             </div>
 

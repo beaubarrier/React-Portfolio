@@ -4,13 +4,14 @@ import Portfolio from '../components/Portfolio';
 import MyStory from '../components/MyStory';
 import Default from '../components/Default';
 import Footer from './Footer'
+import Gallery from './Gallery'
 
 export default function Main() {
     const [currentPage, setPage] = useState('default')
 
     const renderPage = () => {
         if (currentPage === 'portfolio') {
-            return <Portfolio />;
+            return <Gallery />;
         }
         if (currentPage === 'myStory') {
             return <MyStory />;

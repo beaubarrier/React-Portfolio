@@ -1,3 +1,5 @@
+import React from "react";
+import ImageGallery from 'react-image-gallery';
 
 function Portfolio() {
 
@@ -8,6 +10,7 @@ function Portfolio() {
                 <p>Portfolio</p>
             </div>
             <div id="portfolioWindow">
+
                 Coming soon...
                 <div id="hide">    I was born in the great state of new jersey. I lived in new jersey for 23 years before moving to austin
                     texas to work
