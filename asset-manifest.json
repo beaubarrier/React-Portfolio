@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "//beaubarrier.github.io/React-Portfolio/static/css/main.d13d9988.chunk.css",
-    "main.js": "//beaubarrier.github.io/React-Portfolio/static/js/main.4772ee33.chunk.js",
-    "main.js.map": "//beaubarrier.github.io/React-Portfolio/static/js/main.4772ee33.chunk.js.map",
+    "main.css": "//beaubarrier.github.io/React-Portfolio/static/css/main.1dd8d018.chunk.css",
+    "main.js": "//beaubarrier.github.io/React-Portfolio/static/js/main.fafb5c19.chunk.js",
+    "main.js.map": "//beaubarrier.github.io/React-Portfolio/static/js/main.fafb5c19.chunk.js.map",
     "runtime-main.js": "//beaubarrier.github.io/React-Portfolio/static/js/runtime-main.9fc2d6a2.js",
     "runtime-main.js.map": "//beaubarrier.github.io/React-Portfolio/static/js/runtime-main.9fc2d6a2.js.map",
     "static/css/2.6cd54866.chunk.css": "//beaubarrier.github.io/React-Portfolio/static/css/2.6cd54866.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.3f97f544.chunk.js.map": "//beaubarrier.github.io/React-Portfolio/static/js/3.3f97f544.chunk.js.map",
     "index.html": "//beaubarrier.github.io/React-Portfolio/index.html",
     "static/css/2.6cd54866.chunk.css.map": "//beaubarrier.github.io/React-Portfolio/static/css/2.6cd54866.chunk.css.map",
-    "static/css/main.d13d9988.chunk.css.map": "//beaubarrier.github.io/React-Portfolio/static/css/main.d13d9988.chunk.css.map",
+    "static/css/main.1dd8d018.chunk.css.map": "//beaubarrier.github.io/React-Portfolio/static/css/main.1dd8d018.chunk.css.map",
     "static/js/2.ef8a0d4e.chunk.js.LICENSE.txt": "//beaubarrier.github.io/React-Portfolio/static/js/2.ef8a0d4e.chunk.js.LICENSE.txt",
     "static/media/Group7.1fdb9dbb.png": "//beaubarrier.github.io/React-Portfolio/static/media/Group7.1fdb9dbb.png",
     "static/media/Group8.23b64114.png": "//beaubarrier.github.io/React-Portfolio/static/media/Group8.23b64114.png"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.9fc2d6a2.js",
     "static/css/2.6cd54866.chunk.css",
     "static/js/2.ef8a0d4e.chunk.js",
-    "static/css/main.d13d9988.chunk.css",
-    "static/js/main.4772ee33.chunk.js"
+    "static/css/main.1dd8d018.chunk.css",
+    "static/js/main.fafb5c19.chunk.js"
   ]
 }
